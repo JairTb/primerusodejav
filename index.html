@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="codigoJS.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Laboratorio JavaScript</h1>
+    </header>
+    <section>
+        <div>
+            <table class="tabla">
+                <tr>
+                    <td>
+                        <label for="p_nombre">Primer Nombre</label>
+                    </td>
+                    <td>
+                        <input type="text" id="p_nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="s_nombre">Segundo Nombre</label>
+                    </td>
+                    <td>
+                        <input type="text" id="s_nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="p_apellido">Primer Apellido</label>
+                    </td>
+                    <td>
+                        <input type="text" id="p_apellido">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="s_apellido">Segundo Apellido</label>
+                    </td>
+                    <td>
+                        <input type="text" id="s_apellido">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dni_original">DNI</label>
+                    </td>
+                    <td>
+                        <input type="number" id="dni_original">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="f_nace">Fecha de Nacimiento</label>
+                    </td>
+                    <td>
+                        <input type="date" id="f_nace">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""></label>
+                    </td>
+                    <td>
+                        <input type="submit" onclick="nombre_completo(); ultimo_digit();">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nombre_completo">Nombre Completo</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nombre_completo"/><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ultimo_digit">Ultimo Digito del DNI</label>
+                    </td>
+                    <td>
+                        <input type="number" id="ultimo_digit"/><br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
